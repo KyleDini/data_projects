@@ -1,8 +1,10 @@
-# Task: scrape title, link and date from blog posts on rithmschool.com/blog and store in a csv file
+"""
+    Task: scrape title, link and date from blog posts on rithmschool.com/blog and store in a csv file
 
-# order: make request, get the response, send the response (html) to beautifulsoup, extract the info we want with beautifulsoup, then write that info to a csv file
+    order: make request, get the response, send the response (html) to beautifulsoup, extract the info we want with beautifulsoup, then write that info to a csv file
 
-# https://wwww.rithmschool.com/blog
+    https://wwww.rithmschool.com/blog
+"""
 
 import requests
 from bs4 import BeautifulSoup
@@ -10,12 +12,14 @@ from csv import writer
 
 response = requests.get("https://www.rithmschool.com/blog")
 
-# ^ prints the html from the website, but it's hard to read :(
-# go to the website and open the dev tools (right-click -> inspect)
-# in this example, each article is wrapped by an article element
-# for each article, we want to select the anchor tag that's inside of h4, the href to get the url (inside of h4), and the date (in <div class "card">)
+"""
+    ^ prints the html from the website, but it's hard to read :(
+    go to the website and open the dev tools (right-click -> inspect)
+    in this example, each article is wrapped by an article element
+    for each article, we want to select the anchor tag that's inside of h4, the href to get the url (inside of h4), and the date (in <div class "card">)
 
-# looking through the site's html is common bc scraping is just telling it where to look
+    looking through the site's html is common because scraping is just telling it where to look
+"""
 
 soup = BeautifulSoup(response.text, "html.parser")
 
