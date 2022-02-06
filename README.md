@@ -1,4 +1,4 @@
-# Hi! My name is Kyle Din and welcome to my Data Projects Repository! My email is KyleJDini@gmail.com, please feel free to reach out to me there if you have any questions, comments, or just want to chat!
+# Hi! My name is Kyle Dini and welcome to my Data Projects Repository! My email is KyleJDini@gmail.com, please feel free to reach out if you have any questions, comments, or just want to chat! I am always happy to learn new skills/techniques!
 ## I have added some of the projects that I have completed while learning to become a data engineer here.
 ## Most of these projects are done in python.
 ## The data analysis projects folder has completed data analysis projects that showcase crucial data anaylsis skills.
