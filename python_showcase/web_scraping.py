@@ -35,7 +35,9 @@ with open("blog_data.csv", "w") as csv_file:
         article_url = a_tag["href"]
         article_date = article.find("time")["datetime"]
         csv_writer.writerow([article_title, article_url, article_date])
-    # this is the actual scraping portion of the code
-    # this needs to be in the 'with open' because we need the file to be open while we write to it
-    # webcrawling is when we go to multiple urls (usually to scrape data)
-    # this example will only scrape one url, need to add webcrawling functionality
+"""        
+        This block of code above is the actual scraping portion of the code
+        This needs to be in the 'with open' because we need the file to be open while we write to it
+        Webcrawling is when we go to multiple urls (usually to scrape data)
+        This example will only scrape one url, need to add webcrawling functionality to scrape from multiple urls
+"""
