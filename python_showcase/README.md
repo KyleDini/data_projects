@@ -5,6 +5,7 @@
 - Pandas
 - OOP
 - Sending emails with python
+- Adding files to a SQL database
 - Reading and writing to a CSV/JSON file
 ### Use of modules/packages such as: 
 - Pandas
