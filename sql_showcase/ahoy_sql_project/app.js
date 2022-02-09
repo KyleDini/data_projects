@@ -32,7 +32,7 @@ app.get("/", function(req, res){
 });
 
 app.get("/goober", function(req, res){
- var pics = "Send feet pics to (224) 616-4748";
+ var pics = "Send puppy pics to (224) 616-4748";
  res.send(pics);
 });
 
