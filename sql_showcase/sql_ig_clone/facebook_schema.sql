@@ -47,7 +47,8 @@ CREATE TABLE likes(
     PRIMARY KEY(user_id, post_id)
 );
 
--- FOLLOWS TABLE: *** Best to use one table for both followers/followees, both reference user_id *** Also, can only have one of a given relationship: PRIMARY KEY(follower_id, followee_id)
+-- FOLLOWS TABLE: *** Best to use one table for both followers/followees, both reference user_id *** 
+-- Also, can only have one of a given relationship: PRIMARY KEY(follower_id, followee_id)
 CREATE TABLE user_relationships(
     related_user_id INT NOT NULL,
     relating_user_id INT NOT NULL,
