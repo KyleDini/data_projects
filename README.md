@@ -5,3 +5,4 @@
 ## - The SQL Showcase folder has SQL projects that I have worked on, as well as some notes and examples of core SQL concepts.
 ## - The Python Showcase folder contains python projects that use a wide variety of skills.
 ## - The Excel Showcase folder only contains ones excel file that shows off some intermediate level excel skills.
+## - The AWS ETL pipeline folder contains Jupyter Notebook files of an AWS ETL Pipeline project.
