@@ -6,3 +6,5 @@
 3: Save to S3
 
 4: Code Improvements
+
+This project retrieves data from an existing AWS S3 bucket, transforms it, and uploads the transformed data to a new S3 bucket.
